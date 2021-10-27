@@ -1,0 +1,93 @@
+/*Colors and Fonts */
+
+body {
+	background-image: url("images/mathieu-odin-0uBysJSWntE-unsplash.jpg");
+	background-repeat:  no-repeat;
+	background-size: cover;
+	width: 100%;
+    color: #2A3D45;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center
+} 
+
+h1, h2, h3 {
+font-family: 'Lora', serif;
+}
+
+h1 {
+color: #2A3D45;
+font-weight: 900;
+letter-spacing: 10px;
+font-size: 60px;
+text-align: center;
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+font-weight: lighter;
+font-weight: 900;
+}
+
+a {
+	font-family: 'Lora', serif;
+text-decoration: none;
+color: darkblue;
+font-weight: 600;
+font-size: 16px;
+}
+
+a:hover {
+color: indianred;
+}
+
+
+div {
+	background : #EEEEEE;
+	border: 1px solid #334257;
+	margin: 14px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px #334257;
+	padding : 20px 30px;
+	width : 600px
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+
+
+.btn-red {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
